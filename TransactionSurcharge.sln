@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSurcharge", "TransactionSurcharge\TransactionSurcharge.csproj", "{C20D3CA0-A780-4F0D-8EF1-20AF13745158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C20D3CA0-A780-4F0D-8EF1-20AF13745158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20D3CA0-A780-4F0D-8EF1-20AF13745158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20D3CA0-A780-4F0D-8EF1-20AF13745158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20D3CA0-A780-4F0D-8EF1-20AF13745158}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38944AC5-C00A-410B-8F49-169B9AB07CBF}
+	EndGlobalSection
+EndGlobal
