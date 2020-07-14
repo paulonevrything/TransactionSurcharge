@@ -37,13 +37,15 @@ namespace TransactionSurcharge
 
             decimal advisedAmount = amountToBeTransferred - surchargeFee;
 
+            decimal debitChargeFee = ComputeSurchargeFee(advisedAmount, appSettings);
+
+            decimal debitAmount = advisedAmount + debitChargeFee;
+
             Console.WriteLine($"The surcharge fee is: {surchargeFee}");
             
             Console.WriteLine($"You are advised to transfer {advisedAmount} because we will take care of the surcharge fee. ;)");
 
-
-            decimal debitChargeFee = ComputeSurchargeFee();
-            Console.WriteLine($"You will be debitted {amountToBeTransferred}.");
+            Console.WriteLine($"You will be debitted {debitAmount}.");
 
             Console.ReadLine();
         }
